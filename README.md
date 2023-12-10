@@ -12,4 +12,4 @@ Password generator using HTML/CSS/JS
 ![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
 ## Website to view the project
-https://pendu.arthuraugis.fr
+https://generateurmdp.arthuraugis.fr
