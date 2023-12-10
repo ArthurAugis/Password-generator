@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Générateur de mot de passe</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<h1>Générateur de mot de passe</h1>
+<div class="container">
+    <label for="length">Longueur du mot de passe:</label>
+    <input type="number" id="length" min="8" value="8">
+    <br>
+    <br>
+    <label for="specialChars">Inclure des caractères spéciaux:</label>
+    <input type="checkbox" id="specialChars">
+    <br>
+    <br>
+    <label for="numbers">Inclure des chiffres:</label>
+    <input type="checkbox" id="numbers">
+    <br>
+    <br>
+    <button onclick="generatePassword()">Générer le mot de passe</button>
+    <br>
+    <br>
+    <ul id="passwordList"></ul>
+</div>
+
+<footer>Copyright 2023 © Arthur Augis</footer>
+<script src="script.js"></script>
+</body>
+</html>
